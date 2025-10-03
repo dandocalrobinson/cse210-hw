@@ -15,7 +15,7 @@ class Program
     }
     static void DisplayWelcome()
     {
-        Console.WriteLine("Welcome, !");
+        Console.WriteLine("Welcome to the program!");
     }
     static string AskName()
     {

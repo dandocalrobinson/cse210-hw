@@ -12,12 +12,11 @@ class Program
         int guess;
         int attempts = 0;
 
-        // Read the first valid guess before entering the comparison loop
         while (!int.TryParse(Console.ReadLine(), out guess))
         {
             Console.Write("Please enter a valid integer: ");
         }
-        attempts++; // count the first valid guess
+        attempts++;
 
         while (guess != randomNumber)
         {
